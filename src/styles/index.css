@@ -1,0 +1,44 @@
+/* 
+    General Styles
+*/
+
+
+.card-info:hover{
+    /* transform: translateY(-3px); */
+    transform: scale(1.03,1.03);
+    transition-duration: .3s;
+
+}
+
+.btn-warning{
+    background-color: rgb(226, 206, 29);
+    color: black;
+    font-weight: bold;
+}
+
+.img-details{
+    width:800px;
+    height: 525px;
+    border-radius: 15px;
+
+}
+
+.img-details:hover{
+    box-shadow: -8px 16px 24px 0px rgba(145,145,145,0.77);
+-webkit-box-shadow: -8px 16px 24px 0px rgba(145,145,145,0.77);
+-moz-box-shadow: -8px 16px 24px 0px rgba(145,145,145,0.77);
+transform: translateY(-3px);
+transition-duration: .4s;
+border-color: 0.7 solid white;
+transform: scale(1.04,1.04);
+transition-duration: .3s;
+
+}
+
+.text-detail{
+    color: white;
+}
+
+.text-detail:hover{
+    color:yellow;
+}
